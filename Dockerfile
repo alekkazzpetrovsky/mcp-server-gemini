@@ -34,4 +34,4 @@ RUN npm ci --production --ignore-scripts
 EXPOSE 3005
 
 # Command to run the application
-CMD ["node", "dist/index.js"]
+CMD ["node", "dist/enhanced-stdio-server.js"]
